@@ -1,3 +1,4 @@
-<p>
-  story works!
-</p>
+<form #userInput="ngForm" (ngSubmit)="analyzeUserData(userInput)">
+  <textarea cols="30" rows="10" ngModel name="textInput"></textarea>
+  <button>Let's go</button>
+</form>

@@ -16,7 +16,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  getEmotionAnalysis() {
-    return this.http.post('https://twinword-emotion-analysis-v1.p.rapidapi.com/analyze/', "text=After living abroad for such a long time, seeing my family was the best present I could have ever wished for.", httpOptions)
+  getEmotionAnalysis(textInput) {
+    return this.http.post('https://twinword-emotion-analysis-v1.p.rapidapi.com/analyze/', `text=${textInput}`, httpOptions)
   }
 }
