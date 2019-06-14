@@ -11,8 +11,10 @@ export class StoryComponent implements OnInit {
   constructor(private apiService: ApiService) { }
 
   ngOnInit() {
+    this.apiService.getEmotionAnalysis().subscribe(response => {
+      console.log(response);
+      
+    });
   }
-  
-  //method to call on the api
 
 }
