@@ -1,0 +1,56 @@
+.anger1{
+    background-color: #fe1100;
+    height: 100vh;
+     
+}
+.anger1>div{
+    padding: 20px;
+    position: relative;
+    top: 35%;
+    right: -8px;
+    text-align: right;
+    color:white;
+}
+.anger2{
+    background-color: #b31509;
+    height: 100vh;  
+     
+}
+.anger2>div{
+    padding: 20px;
+    padding-top:38px;
+    color:white;
+}
+.anger3{
+    background-color: #7e84ad;
+    height: 100vh; 
+   
+}
+.anger3>div{
+    padding: 20px;
+    position: relative;
+    top:60%;
+    color:white;
+}
+.anger4{
+    background-color: #5c595a;
+    height: 100vh;
+    
+}
+.anger4>div{
+    padding: 20px;
+    position: relative;
+    top: 35%;
+    right: -8px;
+    text-align: right;
+    color:white;
+}
+.anger5{
+    background-color: #44385c;
+    height: 100vh;
+}
+.anger5>div{
+    padding: 20px;
+    padding-top:38px;
+    color:white;
+}
