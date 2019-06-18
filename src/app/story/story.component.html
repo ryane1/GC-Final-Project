@@ -1,12 +1,13 @@
 <div class="main-background">
   <section class="main">
-    <h1>Title</h1>
+    <h1>Let the adventure begin</h1>
 
     <img src="assets\images\worldmap.svg" />
 
     <form #userInput="ngForm" (ngSubmit)="analyzeUserData(userInput)">
-      <textarea cols="30" rows="5" ngModel name="textInput"></textarea>
-      <button>Let's go</button>
+      <!-- <label for=""></label> -->
+      <textarea cols="30" rows="5" ngModel name="textInput" placeholder="Tell us about your trip to Grand Circus..."></textarea>
+      <button>Let's go!</button>
     </form>
   </section>
 </div>
