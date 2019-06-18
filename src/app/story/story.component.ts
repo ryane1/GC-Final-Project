@@ -8,8 +8,8 @@ import { ApiService } from "../api.service";
 })
 export class StoryComponent implements OnInit {
   showAngerDisgust: boolean = true;
-  showSadnessFear: boolean = true;
-  showJoySurprise: boolean = true;
+  showSadnessFear: boolean = false;
+  showJoySurprise: boolean = false;
 
   constructor(private apiService: ApiService) {}
 
