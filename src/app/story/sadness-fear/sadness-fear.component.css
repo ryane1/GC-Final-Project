@@ -1,3 +1,6 @@
+p {
+    font-size: 16px;
+}
 .fear1{
     background-color: #4f8069;
     height: 100vh; 
@@ -27,7 +30,7 @@
 .fear3>div{
     padding: 20px;
     position: relative;
-    top:60%;
+    top:24%;
     color:white;
 }
 .fear4{
@@ -54,7 +57,7 @@
 @media only screen and (min-width:992px){
 
     div > p{
-        font-size:30px;   
+        font-size:14px;   
     }
 .fear1>div,.fear4>div{
     float:right;
