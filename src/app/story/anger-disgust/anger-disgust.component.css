@@ -29,7 +29,7 @@
 .anger3>div{
     padding: 20px;
     position: relative;
-    top:60%;
+    top:44%;
     color:white;
 }
 .anger4{
@@ -53,4 +53,22 @@
     padding: 20px;
     padding-top:38px;
     color:white;
+}
+@media only screen and (min-width:992px){
+    div > p{
+       font-size:20px;   
+   }
+   .anger1>div,.anger4>div{
+       float:right;
+   }
+   div{
+       width:500px;
+   }
+   .anger3>div{
+    /* position: relative; */
+    top: 45%;
+   }
+   .anger4>div{
+       top:24%;
+   }
 }
