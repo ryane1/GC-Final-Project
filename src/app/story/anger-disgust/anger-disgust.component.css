@@ -4,14 +4,32 @@ p {
 .anger1 {
   background-color: #fe1100;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .anger1 > div {
   padding: 20px;
   position: relative;
-  top: 35%;
+  top: 25%;
   right: -8px;
   text-align: right;
   color: white;
+}
+.star {
+  width: 50px;
+  position: relative;
+}
+.palm1 {
+  width: 133px;
+  position: relative;
+  top: 145px;
+  left: 20px;
+}
+.palm2 {
+  width: 85px;
+  position: relative;
+  left: 170px;
+  bottom: 37px;
 }
 .anger2 {
   background-color: #b31509;
