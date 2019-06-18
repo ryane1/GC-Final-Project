@@ -9,6 +9,6 @@
 
   <img src="assets\images\worldmap.svg">
 </section>
-<app-joy-suprise></app-joy-suprise>
-<app-sadness-fear></app-sadness-fear>
-<app-anger-disgust></app-anger-disgust>
+<app-joy-suprise *ngIf="showJoySurprise"></app-joy-suprise>
+<app-sadness-fear *ngIf="showSadnessFear"></app-sadness-fear>
+<app-anger-disgust *ngIf="showAngerDisgust"></app-anger-disgust>
