@@ -1,6 +1,6 @@
 .part1{
     background-color: #8D53a6;
-    height: 100vh;
+    height:100vh;
 }
 .part1>div{
     padding: 20px;
@@ -12,7 +12,7 @@
 }
 .part2{
     background-color: #020540;
-    height: 100vh;
+    height:100vh;
 }
 .part2>div{
     padding: 20px;
@@ -22,7 +22,7 @@
 }
 .part3{
     background-color: #F2e269;
-    height: 100vh;
+    height:100vh;
 }
 .part3>div{
     padding: 20px;
@@ -31,7 +31,7 @@
 }
 .part4{
     background-color: #F2B705;
-    height: 100vh;
+    height:100vh;
 }
 .part4>div{
     padding: 20px;
@@ -42,10 +42,16 @@
 }
 .part5{
     background-color: #F28080;
-    height: 100vh;
+    height:100vh;
 }
 .part5>div{
     padding: 20px;
     padding-top:38px;
     color:white;
 }
+
+section{
+    height:100vh;
+   
+}
+
