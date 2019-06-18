@@ -1,3 +1,6 @@
+p {
+    font-size: 12px;
+  }
 .part1{
     background-color: #8D53a6;
     height:100vh;
@@ -56,7 +59,7 @@ section{
 }
 @media only screen and (min-width:992px){
      div > p{
-        font-size:30px;   
+        font-size:14px;   
     }
     .part1>div,.part4>div{
         float:right;
@@ -64,5 +67,6 @@ section{
     div{
         width:500px;
     }
+    
 }
 
