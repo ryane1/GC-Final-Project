@@ -1,68 +1,50 @@
 p {
     font-size: 16px;
-}
-.fear1{
-    background-color: #4f8069;
-    height: 100vh; 
-}
-.fear1>div{
-    padding: 20px;
-    position: relative;
-    top: 35%;
-    right: -8px;
-    text-align: right;
+    margin:0;
+    padding: 13%;
+  }
+  section{
+    width:100%;
+    position:relative;
+    /* left:50%; */
+    display: flex;
+    align-items: center;
+    height:50vh;
+   }
+   .fear1,.fear6{
+    background-color:#4f8069;
     color:white;
-}
-.fear2{
-    background-color: #e3d597;
-    height: 100vh; 
-}
-.fear2>div{
-    padding: 20px;
-    padding-top:38px;
-    color:black;
-
-}
-.fear3{
+    /* padding: 20%; */
+  
+  }
+  .fear2, .fear7{
+    background-color:#e3d597;
+    
+  }
+  .fear3, .fear8{
     background-color: #293b75;
-    height: 100vh; 
-}
-.fear3>div{
-    padding: 20px;
-    position: relative;
-    top:24%;
     color:white;
-}
-.fear4{
-    background-color: #334011;
-    height: 100vh; 
-}
-.fear4>div{
-    padding: 20px;
-    position: relative;
-    top: 35%;
-    right: -8px;
-    text-align: right;
+  }
+  .fear4, .fear9{
+    background-color:  #334011;
     color:white;
-}
-.fear5{
+  }
+  .fear5, .fear10{
     background-color: #b8e63d;
-    height: 100vh; 
-}
-.fear5>div{
-    padding: 20px;
-    padding-top:38px;
-    color:black;
-}
+  }
+  
 @media only screen and (min-width:992px){
-
-    div > p{
-        font-size:14px;   
+    section{
+        left:50%;
+        width:50%;
+        height:100vh;
     }
-.fear1>div,.fear4>div{
-    float:right;
-}
-div{
-    width:500px;
-}
+    p{
+        font-size:26px;
+    }
+    div{
+        height: 1000vh;
+        background-image: linear-gradient( #4f8069,#e3d597,#293b75,#334011,#b8e63d, #4f8069,
+        #e3d597,#293b75, #334011, #b8e63d);
+    }
 }
