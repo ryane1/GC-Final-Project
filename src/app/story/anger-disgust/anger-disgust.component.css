@@ -1,35 +1,74 @@
+.angerspan1,
+.angerspan6 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.4em;
+  background-color: #b31509;
+  color: black;
+}
+.angerspan2,
+.angerspan7 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.4em;
+  background-color: #44385c;
+  color: white;
+}
+.angerspan3,
+.angerspan8 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.4em;
+  background-color: #5c595a;
+  color: white;
+}
+.angerspan4,
+.angerspan9 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.4em;
+  background-color: #7e84ad;
+  color: black;
+}
+.angerspan5,
+.angerspan10 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.4em;
+  background-color: #fe1100;
+  color: white;
+}
 p {
   font-size: 16px;
-  margin:0;
+  margin: 0;
   padding: 13%;
 }
-section{
-  width:100%;
-  position:relative;
+section {
+  width: 100%;
+  position: relative;
   /* left:50%; */
   display: flex;
   align-items: center;
-  height:50vh;
- }
- .anger1,.anger6{
-  background-color:#fe1100;
-  color:white;
+  height: 50vh;
+}
+.anger1,
+.anger6 {
+  background-color: #fe1100;
+  color: white;
   /* padding: 20%; */
-
 }
-.anger2, .anger7{
-  background-color:#b31509;
-  color:white;
+.anger2,
+.anger7 {
+  background-color: #b31509;
+  color: white;
 }
-.anger3, .anger8{
+.anger3,
+.anger8 {
   background-color: #44385c;
-  color:white;
+  color: white;
 }
-.anger4, .anger9{
-  background-color:  #5c595a;
-  color:white;
+.anger4,
+.anger9 {
+  background-color: #5c595a;
+  color: white;
 }
-.anger5, .anger10{
+.anger5,
+.anger10 {
   background-color: #7e84ad;
 }
 
@@ -86,16 +125,27 @@ section{
   color: white;
 } */
 @media only screen and (min-width: 768px) {
-  section{
-    left:50%;
-    width:50%;
-    height:100vh;
-}
-p{
-    font-size:26px;
-}
-div{
+  section {
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+  }
+  p {
+    font-size: 26px;
+  }
+  div {
     height: 1000vh;
-    background-image: linear-gradient( #fe1100, #b31509,#44385c, #5c595a, #7e84ad, #fe1100, #b31509,#44385c, #5c595a, #7e84ad);
+    background-image: linear-gradient(
+      #fe1100,
+      #b31509,
+      #44385c,
+      #5c595a,
+      #7e84ad,
+      #fe1100,
+      #b31509,
+      #44385c,
+      #5c595a,
+      #7e84ad
+    );
   }
 }

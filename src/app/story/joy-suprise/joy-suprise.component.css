@@ -1,38 +1,76 @@
+.joyspan1,
+.joyspan6 {
+    font-family: 'Caveat', cursive;
+  font-size: 1.8em;
+  background-color: #020540;
+  color: #8d53a6;
+}
+.joyspan2,
+.joyspan7 {
+font-family: 'Caveat', cursive;
+  font-size: 1.8em;
+  background-color: #f2e269;
+  color: #020540;
+}
+.joyspan3,
+.joyspan8 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.8em;
+  background-color: #f2b705;
+  color: black;
+}
+.joyspan4,
+.joyspan9 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.8em;
+  background-color: #f28080;
+  color: white;
+}
+.joyspan5,
+.joyspan10 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.8em;
+  background-color: #8d53a6;
+  color: white;
+}
 p {
-    font-size: 16px;
-    margin:0;
-    padding: 13%;
-  }
-section{
- width:100%;
- position:relative;
- /* left:50%; */
- display: flex;
- align-items: center;
- height:50vh;
+  font-size: 16px;
+  margin: 0;
+  padding: 13%;
+}
+section {
+  width: 100%;
+  position: relative;
+  /* left:50%; */
+  display: flex;
+  align-items: center;
+  height: 50vh;
 }
 
-.part1,.part6{
-    background-color: #8D53a6;
-    color:white;
-    /* padding: 20%; */
-  
+.part1,
+.part6 {
+  background-color: #8d53a6;
+  color: white;
+  /* padding: 20%; */
 }
-.part2, .part7{
-    background-color: #020540;
-    color:white;
+.part2,
+.part7 {
+  background-color: #020540;
+  color: white;
 }
-.part3, .part8{
-    background-color: #F2e269;
+.part3,
+.part8 {
+  background-color: #f2e269;
 }
-.part4, .part9{
-    background-color: #F2B705;
+.part4,
+.part9 {
+  background-color: #f2b705;
 }
-.part5, .part10{
-    background-color: #F28080;
-    color:white;
+.part5,
+.part10 {
+  background-color: #f28080;
+  color: white;
 }
-
 
 /* .part1>div{
     padding: 20px;
@@ -86,18 +124,28 @@ section{
     }
     
 } */
-@media only screen and (min-width:768px){
-    section{
-        left:50%;
-        width:50%;
-        height:100vh;
-    }
-    p{
-        font-size:26px;
-    }
-    div{
-        height: 1000vh;
-        background-image: linear-gradient(#8d53a6, #020540 18%, #f2e269, #f2b705 , #f28080, #8d53a6, #020540, #f2e269
-       , #f2b705, #f28080);
-    }
+@media only screen and (min-width: 768px) {
+  section {
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+  }
+  p {
+    font-size: 26px;
+  }
+  div {
+    height: 1000vh;
+    background-image: linear-gradient(
+      #8d53a6,
+      #020540 18%,
+      #f2e269,
+      #f2b705,
+      #f28080,
+      #8d53a6,
+      #020540,
+      #f2e269,
+      #f2b705,
+      #f28080
+    );
+  }
 }

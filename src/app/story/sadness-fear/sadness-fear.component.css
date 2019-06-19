@@ -1,50 +1,93 @@
+.fearspan1, .fearspan6 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.4em;
+  background-color: #e3d597;
+  color: #4f8069;
+}
+.fearspan2, .fearspan7 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.4em;
+  background-color: #293b75;
+  color: #e3d597;
+}
+.fearspan3, .fearspan8 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.4em;
+  background-color: #e3d597;
+  color: #293b75;
+}
+.fearspan4, .fearspan9 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.4em;
+  background-color: #b8e63d;
+  color: #334011;
+}
+.fearspan5, .fearspan10 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.4em;
+  background-color: #4f8069;
+  color: #b8e63d;
+}
 p {
-    font-size: 16px;
-    margin:0;
-    padding: 13%;
+  font-size: 16px;
+  margin: 0;
+  padding: 13%;
+}
+section {
+  width: 100%;
+  position: relative;
+  /* left:50%; */
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+.fear1,
+.fear6 {
+  background-color: #4f8069;
+  color: white;
+  /* padding: 20%; */
+}
+.fear2,
+.fear7 {
+  background-color: #e3d597;
+}
+.fear3,
+.fear8 {
+  background-color: #293b75;
+  color: white;
+}
+.fear4,
+.fear9 {
+  background-color: #334011;
+  color: white;
+}
+.fear5,
+.fear10 {
+  background-color: #b8e63d;
+}
+
+@media only screen and (min-width: 992px) {
+  section {
+    left: 50%;
+    width: 50%;
+    height: 100vh;
   }
-  section{
-    width:100%;
-    position:relative;
-    /* left:50%; */
-    display: flex;
-    align-items: center;
-    height:50vh;
-   }
-   .fear1,.fear6{
-    background-color:#4f8069;
-    color:white;
-    /* padding: 20%; */
-  
+  p {
+    font-size: 26px;
   }
-  .fear2, .fear7{
-    background-color:#e3d597;
-    
+  div {
+    height: 1000vh;
+    background-image: linear-gradient(
+      #4f8069,
+      #e3d597,
+      #293b75,
+      #334011,
+      #b8e63d,
+      #4f8069,
+      #e3d597,
+      #293b75,
+      #334011,
+      #b8e63d
+    );
   }
-  .fear3, .fear8{
-    background-color: #293b75;
-    color:white;
-  }
-  .fear4, .fear9{
-    background-color:  #334011;
-    color:white;
-  }
-  .fear5, .fear10{
-    background-color: #b8e63d;
-  }
-  
-@media only screen and (min-width:992px){
-    section{
-        left:50%;
-        width:50%;
-        height:100vh;
-    }
-    p{
-        font-size:26px;
-    }
-    div{
-        height: 1000vh;
-        background-image: linear-gradient( #4f8069,#e3d597,#293b75,#334011,#b8e63d, #4f8069,
-        #e3d597,#293b75, #334011, #b8e63d);
-    }
 }
