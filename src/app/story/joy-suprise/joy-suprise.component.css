@@ -95,4 +95,9 @@ section{
     p{
         font-size:26px;
     }
+    div{
+        height: 1000vh;
+        background-image: linear-gradient(#8d53a6, #020540 18%, #f2e269, #f2b705 , #f28080, #8d53a6, #020540, #f2e269
+       , #f2b705, #f28080);
+    }
 }
