@@ -3,7 +3,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 90vh;
+  height: 85vh;
 }
 .main-background {
   width: 100%;
@@ -29,8 +29,8 @@ h1 {
   font-size: 2em;
 }
 img {
-  height: 60%;
-  width: 60%;
+  height: 71%;
+  width: 105%;
   margin: 0;
   padding: 0;
 }
@@ -53,10 +53,21 @@ button {
 @media only screen and (min-width: 768px) {
   textarea {
     /* height: 40px; */
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 147%;
+  font-size: 1.2em;
   }
   form {
     margin-bottom: 5%;
   }
+  h1{
+    font-size:3em;
+    margin-top:18px;
+  }
+  button{
+    font-size: 1.2em;
+    margin-top:0;
+  }
+
 }
