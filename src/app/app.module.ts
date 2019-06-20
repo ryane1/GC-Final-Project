@@ -9,19 +9,32 @@ import { SadnessFearComponent } from './story/sadness-fear/sadness-fear.componen
 import { AngerDisgustComponent } from './story/anger-disgust/anger-disgust.component';
 import { JoySupriseComponent } from './story/joy-suprise/joy-suprise.component';
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import{RouterModule, Routes} from '@angular/router';
+
+const storyRoutes:Routes=[
+  {path: '', redirectTo: '/story', pathMatch:'full'},
+  {path: 'story', component:StoryComponent},
+  {path: 'joy', component:JoySupriseComponent},
+  {path: 'sad', component:SadnessFearComponent},
+  {path: 'anger', component:AngerDisgustComponent}
+];
+
+
 @NgModule({
   declarations: [
     AppComponent,
     StoryComponent,
     SadnessFearComponent,
     AngerDisgustComponent,
-    JoySupriseComponent
+    JoySupriseComponent,
+    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(storyRoutes)
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
