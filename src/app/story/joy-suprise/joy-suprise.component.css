@@ -1,3 +1,17 @@
+.horizontal_scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+section {
+  width: 100%;
+  position: relative;
+  /* left:50%; */
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  flex: 0 0 auto;
+}
 .joyspan1,
 .joyspan6 {
     font-family: 'Caveat', cursive;
@@ -37,14 +51,6 @@ p {
   font-size: 16px;
   margin: 0;
   padding: 13%;
-}
-section {
-  width: 100%;
-  position: relative;
-  /* left:50%; */
-  display: flex;
-  align-items: center;
-  height: 50vh;
 }
 
 .part1,
