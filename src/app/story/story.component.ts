@@ -10,12 +10,16 @@ export class StoryComponent implements OnInit {
   showAngerDisgust: boolean = true;
   showSadnessFear: boolean = true;
   showJoySurprise: boolean = true;
+  loading: boolean = false;
+  show: boolean = true;
 
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {}
 
   analyzeUserData(form) {
+    this.loading = !this.loading;
+    this.show = !this.show;
     this.apiService
       .getEmotionAnalysis(form.value.textInput)
       .subscribe(response => {
