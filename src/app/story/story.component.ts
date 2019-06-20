@@ -12,6 +12,9 @@ export class StoryComponent implements OnInit {
   showJoySurprise: boolean = true;
   loading: boolean = false;
   show: boolean = true;
+  maxLength: number = 100;
+  charactersLeft: any = this.maxLength;
+  characterAlert: string = '';
 
   constructor(private apiService: ApiService) {}
 
@@ -41,5 +44,15 @@ export class StoryComponent implements OnInit {
         //   this.showJoySurprise = true;
         // }
   });
+  }
+  count(msg) {
+    if (this.maxLength>=msg.length) {
+      this.charactersLeft=this.maxLength-msg.length;
+      this.characterAlert = `${this.charactersLeft} character(s) left`;
+    }
+    else {
+      this.charactersLeft=Math.abs(this.maxLength-msg.length);
+      this.characterAlert = `You are ${this.charactersLeft} character(s) over the limit`;
+    }
   }
 }
