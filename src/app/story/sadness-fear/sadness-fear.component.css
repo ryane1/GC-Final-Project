@@ -18,7 +18,7 @@
   overflow-x: hidden;
   height: 56vh;
   width: 162vw;
-  padding-right: 138px;
+  /* padding-right: 138px; */
 }
 
 .fearspan1,
@@ -110,7 +110,7 @@ section {
   }
   div {
     height: 1000vh;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       #4f8069,
       #e3d597,
       #293b75,
@@ -121,6 +121,6 @@ section {
       #293b75,
       #334011,
       #b8e63d
-    );
+    ); */
   }
 }
