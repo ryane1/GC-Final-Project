@@ -7,9 +7,9 @@ import { ApiService } from "../api.service";
   styleUrls: ["./story.component.css"]
 })
 export class StoryComponent implements OnInit {
-  showAngerDisgust: boolean = true;
+  showAngerDisgust: boolean = false;
   showSadnessFear: boolean = true;
-  showJoySurprise: boolean = true;
+  showJoySurprise: boolean = false;
 
   constructor(private apiService: ApiService) {}
 

@@ -1,28 +1,56 @@
-.fearspan1, .fearspan6 {
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.horizontal_scroll {
+  transform: rotate(-90deg) translateY(-250px);
+  position: relative;
+  top: 0;
+  right: 110px;
+  transform-origin: top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 56vh;
+  width: 162vw;
+  padding-right: 138px;
+}
+
+.fearspan1,
+.fearspan6 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #e3d597;
   color: #4f8069;
 }
-.fearspan2, .fearspan7 {
+.fearspan2,
+.fearspan7 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #293b75;
   color: #e3d597;
 }
-.fearspan3, .fearspan8 {
+.fearspan3,
+.fearspan8 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #e3d597;
   color: #293b75;
 }
-.fearspan4, .fearspan9 {
+.fearspan4,
+.fearspan9 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #b8e63d;
   color: #334011;
 }
-.fearspan5, .fearspan10 {
+.fearspan5,
+.fearspan10 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #4f8069;
@@ -34,12 +62,17 @@ p {
   padding: 13%;
 }
 section {
-  width: 100%;
+  /* width: 100%;
   position: relative;
-  /* left:50%; */
   display: flex;
   align-items: center;
-  height: 50vh;
+  height: 50vh; */
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 56vh;
+  transform: rotate(90deg);
 }
 .fear1,
 .fear6 {
