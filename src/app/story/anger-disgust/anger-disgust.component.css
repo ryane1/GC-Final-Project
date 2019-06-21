@@ -1,3 +1,17 @@
+.horizontal_scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  flex: 0 0 auto;
+}
+
 .angerspan1,
 .angerspan6 {
   font-family: "Teko", sans-serif;
@@ -38,14 +52,6 @@ p {
   margin: 0;
   padding: 13%;
 }
-section {
-  width: 100%;
-  position: relative;
-  /* left:50%; */
-  display: flex;
-  align-items: center;
-  height: 50vh;
-}
 .anger1,
 .anger6 {
   background-color: #fe1100;
@@ -72,58 +78,6 @@ section {
   background-color: #7e84ad;
 }
 
-/* .anger1 {
-  background-color: #fe1100;
-  height: 100vh;
-}
-.anger1 > div {
-  padding: 20px;
-  position: relative;
-  top: 35%;
-  right: -8px;
-  text-align: right;
-  color: white;
-}
-.anger2 {
-  background-color: #b31509;
-  height: 100vh;
-}
-.anger2 > div {
-  padding: 20px;
-  padding-top: 38px;
-  color: white;
-}
-.anger3 {
-  background-color: #7e84ad;
-  height: 100vh;
-}
-.anger3 > div {
-  padding: 20px;
-  position: relative;
-  top: 24%;
-  color: white;
-}
-.anger4 {
-  background-color: #5c595a;
-  height: 100vh;
-}
-.anger4 > div {
-  padding: 20px;
-  position: relative;
-  top: 25%;
-  right: -8px;
-  text-align: right;
-  color: white;
-}
-.anger5 {
-  background-color: #44385c;
-  height: 100vh;
-}
-.anger5 > div {
-  padding: 20px;
-  padding-top: 38px;
-  color: white;
-} */
 @media only screen and (min-width: 768px) {
   section {
     left: 50%;
@@ -147,5 +101,12 @@ section {
       #5c595a,
       #7e84ad
     );
+  }
+  .horizontal_scroll {
+    flex-direction: column;
+  }
+  section {
+    width: 50vw;
+    height: 100vh;
   }
 }

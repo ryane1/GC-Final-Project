@@ -8,15 +8,22 @@ import { Router } from '@angular/router';
   styleUrls: ["./story.component.css"]
 })
 export class StoryComponent implements OnInit {
-  showAngerDisgust: boolean = false;
-  showSadnessFear: boolean = false;
-  showJoySurprise: boolean = false;
+  showAngerDisgust: boolean = true;
+  showSadnessFear: boolean = true;
+  showJoySurprise: boolean = true;
+  loading: boolean = false;
+  show: boolean = true;
+  maxLength: number = 100;
+  charactersLeft: any = this.maxLength;
+  characterAlert: string = '';
   emotions:any;
-  constructor(private apiService: ApiService,private router:Router) {}
+  constructor(private apiService: ApiService , private router:Router) {}
 
   ngOnInit() {}
 
   analyzeUserData(form) {
+    this.loading = !this.loading;
+    this.show = !this.show;
     this.apiService
       .getEmotionAnalysis(form.value.textInput)
       .subscribe(response => {this.emotions=response
@@ -36,5 +43,15 @@ export class StoryComponent implements OnInit {
           this.router.navigate(["/joy"]);
         }
   });
+  }
+  count(msg) {
+    if (this.maxLength>=msg.length) {
+      this.charactersLeft=this.maxLength-msg.length;
+      this.characterAlert = `${this.charactersLeft} character(s) left`;
+    }
+    else {
+      this.charactersLeft=Math.abs(this.maxLength-msg.length);
+      this.characterAlert = `You are ${this.charactersLeft} character(s) over the limit`;
+    }
   }
 }
