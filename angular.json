@@ -28,12 +28,7 @@
               "src/styles.css"
             ],
             "scripts": [
-<<<<<<< HEAD
               "node_modules/aos/dist/aos.js"
-=======
-              "node_modules/aos/dist/aos.js",
-              "node_modules/scrollreveal/dist/scrollreveal.js"
->>>>>>> horizontalscroll-testing
             ]
           },
           "configurations": {
