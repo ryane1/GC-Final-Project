@@ -101,4 +101,11 @@ p {
       #b8e63d
     );
   }
+  .horizontal_scroll {
+    flex-direction: column;
+  }
+  section {
+    width: 50vw;
+    height: 100vh;
+  }
 }
