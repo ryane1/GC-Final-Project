@@ -78,11 +78,6 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  section {
-    left: 50%;
-    width: 50%;
-    height: 100vh;
-  }
   p {
     font-size: 26px;
   }
@@ -105,7 +100,8 @@ p {
     flex-direction: column;
   }
   section {
+    left: 50%;
     width: 50vw;
-    height: 100vh;
+    height: 98vh;
   }
 }

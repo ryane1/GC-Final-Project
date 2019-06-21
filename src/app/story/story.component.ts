@@ -8,9 +8,9 @@ import { Router } from '@angular/router';
   styleUrls: ["./story.component.css"]
 })
 export class StoryComponent implements OnInit {
-  showAngerDisgust: boolean = true;
-  showSadnessFear: boolean = true;
-  showJoySurprise: boolean = true;
+  showAngerDisgust: boolean = false;
+  showSadnessFear: boolean = false;
+  showJoySurprise: boolean = false;
   loading: boolean = false;
   show: boolean = true;
   maxLength: number = 100;
