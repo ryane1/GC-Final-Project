@@ -1,28 +1,47 @@
-.fearspan1, .fearspan6 {
+.horizontal_scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  flex: 0 0 auto;
+}
+
+.fearspan1,
+.fearspan6 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #e3d597;
   color: #4f8069;
 }
-.fearspan2, .fearspan7 {
+.fearspan2,
+.fearspan7 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #293b75;
   color: #e3d597;
 }
-.fearspan3, .fearspan8 {
+.fearspan3,
+.fearspan8 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #e3d597;
   color: #293b75;
 }
-.fearspan4, .fearspan9 {
+.fearspan4,
+.fearspan9 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #b8e63d;
   color: #334011;
 }
-.fearspan5, .fearspan10 {
+.fearspan5,
+.fearspan10 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #4f8069;
@@ -32,14 +51,6 @@ p {
   font-size: 16px;
   margin: 0;
   padding: 13%;
-}
-section {
-  width: 100%;
-  position: relative;
-  /* left:50%; */
-  display: flex;
-  align-items: center;
-  height: 50vh;
 }
 .fear1,
 .fear6 {

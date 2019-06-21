@@ -5,8 +5,13 @@
     <img src="assets\images\worldmap.svg" />
 
     <form #userInput="ngForm" (ngSubmit)="analyzeUserData(userInput)">
-      <!-- <label for=""></label> -->
-      <textarea cols="30" rows="5" ngModel name="textInput" placeholder="Tell us about your trip to Grand Circus..."></textarea>
+      <textarea
+        cols="30"
+        rows="5"
+        ngModel
+        name="textInput"
+        placeholder="Tell us about your trip to Grand Circus..."
+      ></textarea>
       <button>Let's go!</button>
     </form>
   </section>
