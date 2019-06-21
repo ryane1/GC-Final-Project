@@ -1,3 +1,6 @@
+/* Mobile Version */
+
+/* Horizontal scroll */
 .horizontal_scroll {
   display: flex;
   flex-wrap: nowrap;
@@ -11,7 +14,7 @@ section {
   height: 50vh;
   flex: 0 0 auto;
 }
-
+/* styling for sections */
 .angerspan1,
 .angerspan6 {
   font-family: "Teko", sans-serif;
@@ -52,11 +55,11 @@ p {
   margin: 0;
   padding: 13%;
 }
+/* styling highlighted text */
 .anger1,
 .anger6 {
   background-color: #fe1100;
   color: white;
-  /* padding: 20%; */
 }
 .anger2,
 .anger7 {
@@ -77,11 +80,12 @@ p {
 .anger10 {
   background-color: #7e84ad;
 }
-
+/* Desktop Version */
 @media only screen and (min-width: 768px) {
   p {
     font-size: 26px;
   }
+  /* adding gradient effect to background */
   div {
     height: 1000vh;
     background-image: linear-gradient(
@@ -97,6 +101,7 @@ p {
       #7e84ad
     );
   }
+  /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
   }

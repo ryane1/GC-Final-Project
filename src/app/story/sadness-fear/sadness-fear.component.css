@@ -1,3 +1,6 @@
+/* Mobile Version */
+
+/* Horizontal scroll */
 .horizontal_scroll {
   display: flex;
   flex-wrap: nowrap;
@@ -11,7 +14,7 @@ section {
   height: 50vh;
   flex: 0 0 auto;
 }
-
+/* styling for each section */
 .fearspan1,
 .fearspan6 {
   font-family: "Crimson Text", serif;
@@ -52,11 +55,11 @@ p {
   margin: 0;
   padding: 13%;
 }
+/* styling highlighted text */
 .fear1,
 .fear6 {
   background-color: #4f8069;
   color: white;
-  /* padding: 20%; */
 }
 .fear2,
 .fear7 {
@@ -76,11 +79,12 @@ p {
 .fear10 {
   background-color: #b8e63d;
 }
-
+/* Desktop Version */
 @media only screen and (min-width: 992px) {
   p {
     font-size: 26px;
   }
+   /* gradient background */
   div {
     height: 1000vh;
     background-image: linear-gradient(
@@ -96,6 +100,7 @@ p {
       #b8e63d
     );
   }
+  /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
   }

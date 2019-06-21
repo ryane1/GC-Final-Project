@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JoySupriseComponent } from './joy-suprise.component';
+import { JoySurpriseComponent } from './joy-surprise.component';
 
 describe('JoySupriseComponent', () => {
-  let component: JoySupriseComponent;
-  let fixture: ComponentFixture<JoySupriseComponent>;
+  let component: JoySurpriseComponent;
+  let fixture: ComponentFixture<JoySurpriseComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ JoySupriseComponent ]
+      declarations: [ JoySurpriseComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(JoySupriseComponent);
+    fixture = TestBed.createComponent(JoySurpriseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

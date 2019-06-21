@@ -15,7 +15,7 @@ const httpOptions = {
 export class ApiService {
 
   constructor(private http: HttpClient) { }
-
+//
   getEmotionAnalysis(textInput) {
     return this.http.post('https://twinword-emotion-analysis-v1.p.rapidapi.com/analyze/', `text=${textInput}`, httpOptions)
   }

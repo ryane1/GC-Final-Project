@@ -7,14 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { ApiService } from './api.service';
 import { SadnessFearComponent } from './story/sadness-fear/sadness-fear.component';
 import { AngerDisgustComponent } from './story/anger-disgust/anger-disgust.component';
-import { JoySupriseComponent } from './story/joy-suprise/joy-suprise.component';
+import { JoySurpriseComponent } from './story/joy-suprise/joy-surprise.component';
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import{RouterModule, Routes} from '@angular/router';
 
 const storyRoutes:Routes=[
   {path: '', redirectTo: '/story', pathMatch:'full'},
   {path: 'story', component:StoryComponent},
-  {path: 'joy', component:JoySupriseComponent},
+  {path: 'joy', component:JoySurpriseComponent},
   {path: 'sad', component:SadnessFearComponent},
   {path: 'anger', component:AngerDisgustComponent}
 ];
@@ -26,7 +26,7 @@ const storyRoutes:Routes=[
     StoryComponent,
     SadnessFearComponent,
     AngerDisgustComponent,
-    JoySupriseComponent,
+    JoySurpriseComponent,
     
   ],
   imports: [

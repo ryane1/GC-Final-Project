@@ -1,3 +1,6 @@
+/* Mobile Version */
+
+/* Horizontal scroll */
 .horizontal_scroll {
   display: flex;
   flex-wrap: nowrap;
@@ -11,6 +14,7 @@ section {
   height: 50vh;
   flex: 0 0 auto;
 }
+/* styling for joy-surprise sections */
 .joyspan1,
 .joyspan6 {
   font-family: "Caveat", cursive;
@@ -51,12 +55,11 @@ p {
   margin: 0;
   padding: 13%;
 }
-
+/* styling highlighted text */
 .part1,
 .part6 {
   background-color: #8d53a6;
   color: white;
-  /* padding: 20%; */
 }
 .part2,
 .part7 {
@@ -76,11 +79,12 @@ p {
   background-color: #f28080;
   color: white;
 }
-
+/* Desktop Version */
 @media only screen and (min-width: 768px) {
   p {
     font-size: 26px;
   }
+  /* gradient background */
   div {
     height: 1000vh;
     background-image: linear-gradient(
@@ -96,6 +100,7 @@ p {
       #f28080
     );
   }
+  /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
   }
