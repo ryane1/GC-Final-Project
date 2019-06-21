@@ -1,3 +1,22 @@
+.horizontal_scroll{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  transform: translateY(58%);
+ 
+}
+
+section{
+  flex:0 0 auto;
+  width: 100%;
+  /* position: relative; */
+  /* left:50%; */
+  /* display: flex; */
+  align-items: center;
+  /* height: 60vh; */
+  
+}
+
 .joyspan1,
 .joyspan6 {
     font-family: 'Caveat', cursive;
@@ -37,14 +56,6 @@ p {
   font-size: 16px;
   margin: 0;
   padding: 13%;
-}
-section {
-  width: 100%;
-  position: relative;
-  /* left:50%; */
-  display: flex;
-  align-items: center;
-  height: 50vh;
 }
 
 .part1,
@@ -147,5 +158,8 @@ section{
       #f2b705,
       #f28080
     );
+  }
+  section{
+   overflow-x: auto;
   }
 }
