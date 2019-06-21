@@ -9,6 +9,8 @@ import { SadnessFearComponent } from './story/sadness-fear/sadness-fear.componen
 import { AngerDisgustComponent } from './story/anger-disgust/anger-disgust.component';
 import { JoySupriseComponent } from './story/joy-suprise/joy-suprise.component';
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {NgsRevealModule} from 'ngx-scrollreveal';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,7 @@ import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,NgsRevealModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
