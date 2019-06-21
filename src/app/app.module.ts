@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { ApiService } from './api.service';
 import { SadnessFearComponent } from './story/sadness-fear/sadness-fear.component';
 import { AngerDisgustComponent } from './story/anger-disgust/anger-disgust.component';
-import { JoySurpriseComponent } from './story/joy-suprise/joy-surprise.component';
+import { JoySurpriseComponent } from './story/joy-surprise/joy-surprise.component';
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import{RouterModule, Routes} from '@angular/router';
 
