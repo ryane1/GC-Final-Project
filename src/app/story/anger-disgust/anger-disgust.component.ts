@@ -11,5 +11,7 @@ export class AngerDisgustComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
 }

@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class SadnessFearComponent implements OnInit {
 
   constructor() { }
-
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   ngOnInit() {
   }
-
+  
 }

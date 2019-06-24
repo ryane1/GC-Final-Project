@@ -110,4 +110,7 @@ p {
     width: 50vw;
     height: 10%;
   }
+  div>i{
+    display: none;
+  }
 }
