@@ -79,6 +79,9 @@ p {
   background-color: #f28080;
   color: white;
 }
+div>i{
+  margin-right:10px;
+}
 /* Desktop Version */
 @media only screen and (min-width: 768px) {
   p {
@@ -109,7 +112,7 @@ p {
     width: 50vw;
     height: 10%;
   }
-  div>i{
-    display:none;
-  }
+ div>i{
+   display:none;
+ }
 }
