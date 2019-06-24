@@ -79,6 +79,12 @@ p {
 .anger10 {
   background-color: #7e84ad;
 }
+.fa-angle-right {
+  padding-right: 10px;
+}
+.fa-angle-left {
+  padding-left: 10px;
+}
 /* Desktop Version */
 @media only screen and (min-width: 768px) {
   p {
@@ -109,7 +115,13 @@ p {
     width: 50vw;
     height: 10%;
   }
-  div>i{
-    display: none;
+  .fas {
+    transform: rotate(90deg);
+  }
+  .fa-angle-right {
+    padding-right: 30px;
+  }
+  .fa-angle-left {
+    padding-left: 30px;
   }
 }
