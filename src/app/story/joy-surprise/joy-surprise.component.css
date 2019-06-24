@@ -1,5 +1,13 @@
 /* Mobile Version */
-
+.content {
+  height: 50vh;
+}
+.part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8, .part9, .part10 {
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 /* Horizontal scroll */
 .horizontal_scroll {
   display: flex;
@@ -11,7 +19,7 @@ section {
   position: relative;
   display: flex;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
   flex: 0 0 auto;
 }
 /* styling for joy-surprise sections */
