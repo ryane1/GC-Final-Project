@@ -28,13 +28,15 @@ const storyRoutes:Routes=[
     AngerDisgustComponent,
     JoySurpriseComponent,
     
+    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(storyRoutes)
+    RouterModule.forRoot(storyRoutes),
+  
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]

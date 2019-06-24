@@ -53,4 +53,6 @@ export class StoryComponent implements OnInit {
       this.characterAlert = `You are ${this.charactersLeft} character(s) over the limit`;
     }
   }
+     
+
 }
