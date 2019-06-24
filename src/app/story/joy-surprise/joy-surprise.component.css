@@ -117,10 +117,7 @@ p {
   .fas {
     transform: rotate(90deg);
   }
-  .fa-angle-right {
-    padding-right: 30px;
-  }
-  .fa-angle-left {
-    padding-left: 30px;
+  .fa-angle-right, .fa-angle-left {
+    padding: 20px;
   }
 }
