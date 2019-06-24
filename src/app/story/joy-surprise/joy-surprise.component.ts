@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JoySurpriseComponent implements OnInit {
 
-  showJoy: boolean;
   constructor() { }
 
   scroll(el: HTMLElement) {

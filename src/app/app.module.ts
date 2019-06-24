@@ -8,7 +8,6 @@ import { ApiService } from './api.service';
 import { SadnessFearComponent } from './story/sadness-fear/sadness-fear.component';
 import { AngerDisgustComponent } from './story/anger-disgust/anger-disgust.component';
 import { JoySurpriseComponent } from './story/joy-surprise/joy-surprise.component';
-import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import{RouterModule, Routes} from '@angular/router';
 
 const storyRoutes:Routes=[
@@ -26,15 +25,12 @@ const storyRoutes:Routes=[
     StoryComponent,
     SadnessFearComponent,
     AngerDisgustComponent,
-    JoySurpriseComponent,
-    
-    
+    JoySurpriseComponent   
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule,
     RouterModule.forRoot(storyRoutes),
   
   ],
