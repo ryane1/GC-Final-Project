@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JoySurpriseComponent implements OnInit {
 
+  
   constructor() { }
 
   scroll(el: HTMLElement) {
@@ -14,5 +15,16 @@ export class JoySurpriseComponent implements OnInit {
   }
   ngOnInit() {
   }
-
+playAudio(){
+    let audio = new Audio();
+    audio.src = "../assets/images/phonering.mp3";
+    audio.load();
+    audio.play();
+  }
+  playAudio2(){
+    let audio = new Audio();
+    audio.src = "../assets/images/Car Engine Revving-SoundBible.com-296716119.mp3";
+    audio.load();
+    audio.play();
+  }
 }
