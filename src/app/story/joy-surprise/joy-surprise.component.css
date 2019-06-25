@@ -25,6 +25,7 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 section {
   position: relative;
@@ -111,7 +112,7 @@ p {
     font-size: 26px;
   }
   /* gradient background */
-  /* div {
+  div {
     height: 1000vh;
     background-image: linear-gradient(
       #8d53a6,
@@ -125,10 +126,11 @@ p {
       #f2b705,
       #f28080
     );
-  } */
+  }
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
+    overflow-x: hidden;
   }
   .fas {
     transform: rotate(90deg);
@@ -142,5 +144,11 @@ p {
   .part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8, .part9, .part10 {
     flex-direction: row;
     justify-content: space-between;
-  }
+    width: 55%;
+   
+    /* float: right; */
+    position: relative;
+    transform: translate(82%,-100%);
+
+  }  
 }
