@@ -41,7 +41,7 @@ section {
 .fearspan7 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
-  background-color: #293b75;
+  background-color: #3f5cba;
   color: #e3d597;
 }
 .fearspan3,
@@ -49,14 +49,14 @@ section {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #e3d597;
-  color: #293b75;
+  color: #3f5cba;
 }
 .fearspan4,
 .fearspan9 {
   font-family: "Crimson Text", serif;
   font-size: 1.4em;
   background-color: #b8e63d;
-  color: #334011;
+  color: #4c8012;
 }
 .fearspan5,
 .fearspan10 {
@@ -81,12 +81,12 @@ p {
 }
 .fear3,
 .fear8 {
-  background-color: #293b75;
+  background-color: #3f5cba;
   color: white;
 }
 .fear4,
 .fear9 {
-  background-color: #334011;
+  background-color: #4c8012;
   color: white;
 }
 .fear5,
