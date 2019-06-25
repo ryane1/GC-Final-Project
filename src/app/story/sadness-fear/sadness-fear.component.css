@@ -1,17 +1,27 @@
 /* Mobile Version */
-.material-icons {
-  position: absolute;
-  top: 75%;
-  right: 80%;
-}
-.img-tall {
+.img-animation {
   height: 270px;
-  margin: auto;
 }
-.img-wide {
-  width: 400px;
-  margin: auto;
+.three {
+  height: 190px;
 }
+.four, .five {
+  height: 210px;
+}
+.six {
+  height: 160px;
+}
+.seven, .nine {
+  height: 200px;
+}
+.eight {
+  height: 140px;
+}
+.ten {
+  height: 180px;
+}
+
+
 .content {
   height: 50vh;
 }
@@ -142,5 +152,10 @@ p {
   .fear1, .fear2, .fear3, .fear4, .fear5, .fear6, .fear7, .fear8, .fear9, .fear10 {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .material-icons {
+    position: absolute;
+    top: 75%;
+    right: 80%;
   }
 }
