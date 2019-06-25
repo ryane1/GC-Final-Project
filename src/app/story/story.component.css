@@ -31,8 +31,8 @@ h1 {
   font-size: 2em;
 }
 img {
-  height: 71%;
-  width: 105%;
+  /* height: 71%; */
+  width: 101%;
   margin: 0;
   padding: 0;
 }
