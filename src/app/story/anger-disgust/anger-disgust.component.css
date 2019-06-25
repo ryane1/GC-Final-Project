@@ -1,34 +1,19 @@
 /* Mobile Version */
 /* animation sizing */
-.one {
-  height: 320px;
-}
-.two {
-  height: 430px;
-}
-.three {
-  height: 280px;
-}
-.four {
-  height: 280px;
+.one, .two, .three, .four, .six, .seven, .nine {
+  height: 270px;
 }
 .five {
-  height: 240px;
+  height: 230px;
 }
 .six {
-  height: 230px;
-}
-.seven {
-  height: 230px;
+  padding-right: 90px;
 }
 .eight {
-  height: 170px;
-}
-.nine {
-  height: 200px;
+  height: 360px;
 }
 .ten {
-  height: 240px;
+  height: 300px;
 }
 
 .content {
@@ -171,35 +156,5 @@ p {
   /* animation sizing */
   .img-animation {
     margin: auto;
-  }
-  .one {
-    height: 320px;
-  }
-  .two {
-    height: 430px;
-  }
-  .three {
-    height: 280px;
-  }
-  .four {
-    height: 280px;
-  }
-  .five {
-    height: 240px;
-  }
-  .six {
-    height: 230px;
-  }
-  .seven {
-    height: 230px;
-  }
-  .eight {
-    height: 170px;
-  }
-  .nine {
-    height: 200px;
-  }
-  .ten {
-    height: 240px;
   }
 }
