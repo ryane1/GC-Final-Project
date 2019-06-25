@@ -6,6 +6,10 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./sadness-fear.component.css"]
 })
 export class SadnessFearComponent implements OnInit {
+  
+  playing: boolean = true;
+  audio = new Audio();
+
   constructor() {}
 
   scroll(el: HTMLElement) {
@@ -14,17 +18,28 @@ export class SadnessFearComponent implements OnInit {
   ngOnInit() {}
 
   audioPart2() {
-    let audio = new Audio();
-    audio.src = "../../../assets/sounds/Grasshopper.mp3";
-    audio.load();
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../../../assets/sounds/Grasshopper.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }    
   }
   audioPart5() {
-    let audio = new Audio();
-    audio.src = "../../../assets/sounds/Thunderstorm.mp3";
-    audio.load();
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../../../assets/sounds/Thunderstorm.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    } 
   }
+  
   audioPart7() {
     let audio = new Audio();
     audio.src = "../../../assets/sounds/Bicycle Bell Ringing.mp3";
@@ -43,4 +58,5 @@ export class SadnessFearComponent implements OnInit {
     audio.load();
     audio.play();
   }
+  
 }
