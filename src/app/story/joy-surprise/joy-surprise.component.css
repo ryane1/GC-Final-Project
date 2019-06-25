@@ -203,4 +203,7 @@ p {
   .seven {
     height: 52%;
   }
+  .eight {
+    padding-bottom: 40px;
+  }
 }
