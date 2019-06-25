@@ -6,6 +6,10 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./joy-surprise.component.css"]
 })
 export class JoySurpriseComponent implements OnInit {
+  
+  playing: boolean = true;
+  audio = new Audio();
+
   constructor() {}
 
   ngOnInit() {}
@@ -13,14 +17,26 @@ export class JoySurpriseComponent implements OnInit {
     el.scrollIntoView();
   }
   audioPart2() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/cardriving.wav";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/cardriving.wav";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
   audioPart3() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/bark.mp3";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/bark.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
   audioPart5() {
     let audio = new Audio();
@@ -28,13 +44,25 @@ export class JoySurpriseComponent implements OnInit {
     audio.play();
   }
   audioPart8() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/camera.wav";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/camera.wav";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
   audioPart9() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/phonering.mp3";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/phonering.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
 }

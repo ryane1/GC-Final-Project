@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AngerDisgustComponent implements OnInit {
 
+  playing: boolean = true;
+  audio = new Audio();
+
   constructor() { }
 
   ngOnInit() {
@@ -15,14 +18,26 @@ export class AngerDisgustComponent implements OnInit {
     el.scrollIntoView();
   }
   audioPart1() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/alarm.mp3";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/alarm.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
   audioPart4() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/parrot.mp3";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/parrot.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
   audioPart8() {
     let audio = new Audio();
@@ -30,8 +45,14 @@ export class AngerDisgustComponent implements OnInit {
     audio.play();
   }
   audioPart9() {
-    let audio = new Audio();
-    audio.src = "../assets/sounds/metronome.mp3";
-    audio.play();
+    if (this.playing) {
+      this.playing = !this.playing;
+      this.audio.src = "../assets/sounds/metronome.mp3";
+      this.audio.load();
+      this.audio.play();
+    } else {
+      this.audio.pause();
+      this.playing = !this.playing;
+    }
   }
 }
