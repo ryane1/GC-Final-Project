@@ -1,32 +1,35 @@
 /* Mobile Version */
-/* .img-animation {
-  height: 270px;
-} */
+/* animation sizing */
 .one {
   height: 270px;
 }
 .two {
-  height: 300px;
+  height: 270px;
 }
 .three {
-  height: 190px;
+  height: 270px;
 }
-.four, .five {
-  height: 210px;
+.four {
+  height: 270px;
+}
+.five {
+  height: 270px;
 }
 .six {
-  height: 160px;
+  height: 270px;
 }
-.seven, .nine {
-  height: 200px;
+.seven {
+  height: 270px;
 }
 .eight {
-  height: 140px;
+  height: 270px;
+}
+.nine {
+  height: 270px;
 }
 .ten {
-  height: 180px;
+  height: 270px;
 }
-
 
 .content {
   height: 50vh;
@@ -164,6 +167,7 @@ p {
     top: 75%;
     right: 80%;
   }
+  /* animation sizing */
   .img-animation {
     margin: auto;
   }
@@ -173,19 +177,13 @@ p {
   .two {
     height: 430px;
   }
-  .three {
+  .three, .four {
     height: 280px;
   }
-  .four {
-    height: 280px;
-  }
-  .five {
+  .five, .ten {
     height: 240px;
   }
-  .six {
-    height: 230px;
-  }
-  .seven {
+  .six, .seven {
     height: 230px;
   }
   .eight {
@@ -193,8 +191,5 @@ p {
   }
   .nine {
     height: 200px;
-  }
-  .ten {
-    height: 240px;
   }
 }
