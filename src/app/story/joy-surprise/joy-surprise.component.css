@@ -38,6 +38,7 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y:hidden;
 }
 section {
   position: relative;
@@ -142,6 +143,7 @@ p {
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
+    overflow-x: hidden;
   }
   .fas {
     transform: rotate(90deg);
@@ -175,14 +177,16 @@ p {
   .img-animation {
     margin: auto;
   }
-  .one, .two, .three, .five, .six, .nine, .ten {
+  .one, .two, .three, .five, .nine, .ten {
     height: 270px;
   }
   .four {
     height: 220px;
   }
   .six {
+    height: 360px;
     padding-right: 70px;
+    padding-bottom: 90px;
   }
   .seven {
     height: 360px;
