@@ -31,10 +31,8 @@ h1 {
   font-size: 2em;
 }
 img {
-  /* height: 71%; */
-  width: 101%;
-  margin: 0;
-  padding: 0;
+  width: 82%;
+  margin: 11px;
 }
 textarea,
 form {
@@ -164,4 +162,7 @@ button:hover {
   button {
     font-size: 1.2em;
   }
+ img{
+   width:62%;
+ }
 }
