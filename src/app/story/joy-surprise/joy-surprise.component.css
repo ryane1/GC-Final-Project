@@ -6,11 +6,10 @@
 }
 .img-tall {
   height: 270px;
-  margin: auto;
 }
 .img-wide {
   width: 460px;
-  margin: auto;
+  /* margin: auto; */
 }
 .content {
   height: 50vh;
@@ -111,7 +110,7 @@ p {
     font-size: 26px;
   }
   /* gradient background */
-  /* div {
+  div.horizontal_scroll {
     height: 1000vh;
     background-image: linear-gradient(
       #8d53a6,
@@ -125,9 +124,10 @@ p {
       #f2b705,
       #f28080
     );
-  } */
+  }
   /* changing scroll to vertical */
-  .horizontal_scroll {
+  div.horizontal_scroll {
+    display: flex;
     flex-direction: column;
   }
   .fas {
@@ -141,6 +141,22 @@ p {
   }
   .part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8, .part9, .part10 {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
+   
+  } 
+  /* .part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8, .part9, .part10{
+    width:50%;
+    left:50%; */
+    /* transform: translateY(-100%); */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
   }
-}
+  /* section.image{
+    width:50%;
+  }
+  img{
+    position: relative;
+    left:28%;
+  } */
+  
+

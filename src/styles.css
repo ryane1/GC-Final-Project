@@ -3,8 +3,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin:0; 
+    width:100vw;
 }
 html{
     scroll-behavior: smooth;
+    
 }
 
