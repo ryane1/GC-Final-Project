@@ -1,17 +1,22 @@
 /* Mobile Version */
-.material-icons {
-  position: absolute;
-  top: 75%;
-  right: 80%;
-}
-.img-tall {
+/* animation sizing */
+.one, .two, .three, .four, .six, .seven, .nine {
   height: 270px;
-  margin: auto;
 }
-.img-wide {
-  width: 460px;
-  margin: auto;
+.five {
+  height: 230px;
 }
+.six {
+  padding-right: 90px;
+}
+.eight {
+  height: 360px;
+}
+.ten {
+  height: 300px;
+  padding-right: 70px;
+}
+
 .content {
   height: 50vh;
 }
@@ -145,5 +150,14 @@ p {
   .anger1, .anger2, .anger3, .anger4, .anger5, .anger6, .anger7, .anger8, .anger9, .anger10 {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .material-icons {
+    position: absolute;
+    top: 75%;
+    right: 80%;
+  }
+  /* animation sizing */
+  .img-animation {
+    margin: auto;
   }
 }
