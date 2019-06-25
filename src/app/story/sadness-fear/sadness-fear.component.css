@@ -1,5 +1,11 @@
 /* Mobile Version */
-.img-animation {
+/* .img-animation {
+  height: 270px;
+} */
+.one {
+  height: 270px;
+}
+.two {
   height: 270px;
 }
 .three {
@@ -157,5 +163,8 @@ p {
     position: absolute;
     top: 75%;
     right: 80%;
+  }
+  .img-animation {
+    margin: auto;
   }
 }
