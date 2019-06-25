@@ -1,8 +1,35 @@
 /* Mobile Version */
 /* animation sizing */
-.one, .two, .three, .five, .six, .eight, .nine, .ten {
+.one,
+.three,
+.five,
+.six,
+.nine,
+.ten {
+  height: 30%;
+}
+.two,
+.four {
+  height: 26%;
+}
+.six {
+  padding-right: 70px;
+  padding-bottom: 100px;
+}
+.seven {
+  height: 42%;
+}
+.eight {
+  height: 40%;
+}
+.ten {
+  padding-right: 70px;
+}
+
+/* .one, .two, .three, .five, .six, .eight, .nine, .ten {
   height: 270px;
 }
+.two
 .four {
   height: 220px;
 }
@@ -14,7 +41,7 @@
 }
 .ten {
   padding-right: 80px;
-}
+} */
 
 .content {
   height: 50vh;
@@ -38,7 +65,7 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  overflow-y:hidden;
+  overflow-y: hidden;
 }
 section {
   position: relative;
@@ -177,24 +204,20 @@ p {
   .img-animation {
     margin: auto;
   }
-  .one, .two, .three, .five, .nine, .ten {
-    height: 270px;
+  .one,
+  .three,
+  .five,
+  .six,
+  .eight,
+  .nine,
+  .ten {
+    height: 40%;
   }
+  .two,
   .four {
-    height: 220px;
-  }
-  .six {
-    height: 360px;
-    padding-right: 70px;
-    padding-bottom: 90px;
+    height: 36%;
   }
   .seven {
-    height: 360px;
-  }
-  .eight {
-    height: 340px;
-  }
-  .ten {
-    padding-right: 80px;
+    height: 52%;
   }
 }
