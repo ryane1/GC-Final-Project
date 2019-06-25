@@ -25,6 +25,7 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 section {
   position: relative;
@@ -129,6 +130,7 @@ p {
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
+    overflow-x: hidden;
   }
   .fas {
     transform: rotate(90deg);
