@@ -6,7 +6,7 @@
   height: 270px;
 }
 .two {
-  height: 270px;
+  height: 300px;
 }
 .three {
   height: 190px;
@@ -166,5 +166,35 @@ p {
   }
   .img-animation {
     margin: auto;
+  }
+  .one {
+    height: 320px;
+  }
+  .two {
+    height: 430px;
+  }
+  .three {
+    height: 280px;
+  }
+  .four {
+    height: 280px;
+  }
+  .five {
+    height: 240px;
+  }
+  .six {
+    height: 230px;
+  }
+  .seven {
+    height: 230px;
+  }
+  .eight {
+    height: 170px;
+  }
+  .nine {
+    height: 200px;
+  }
+  .ten {
+    height: 240px;
   }
 }
