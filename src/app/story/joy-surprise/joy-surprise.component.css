@@ -1,11 +1,16 @@
 /* Mobile Version */
-/* animation sizing */
+div.home_icon{
+  position: relative;
+  left: 35%;
+  font-size:2em;
+  cursor:pointer;
+}
 
+/* animation sizing */
 .one,
 .three,
 .six,
-.nine,
-.ten {
+.nine{
   height: 30%;
 }
 .two, .four {
@@ -22,30 +27,22 @@
   height: 40%;
 }
 .ten {
-  padding-right: 70px;
+  height:25%;
 }
-
 .five{
-  height:33%;
+  height:30%;
   animation-name:yoga;
   animation-duration: 10s;
   position: relative;
   animation-iteration-count: 10;
 }
 @keyframes yoga {
-  /* 0%   {top:0px;}
-  25%  {top:100px;}
-  50%  {top:200px;}
-  75%  {top:100px;}
-  100% { top:0px;} */
   0%   {top:0px;}
   25%  {top:15px;}
   50%  {top:40px;}
   75%  { top:15px;}
   100% { top:0px;}
-
 }
-
 .content {
   height: 50vh;
 }
