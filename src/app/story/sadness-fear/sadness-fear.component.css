@@ -229,4 +229,10 @@ p {
   .ten {
     height: 35%;
   }
+  div.home_icon{
+    position: absolute;
+    left: 94%;
+    top: 90%;
+    transform: rotate(-90deg);
+  }
 }

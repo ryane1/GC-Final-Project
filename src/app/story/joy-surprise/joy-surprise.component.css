@@ -35,7 +35,7 @@ div.home_icon{
 .five{
   height:30%;
   animation-name:yoga;
-  animation-duration: 10s;
+  animation-duration: 3s;
   position: relative;
   animation-iteration-count: 10;
 }
@@ -223,5 +223,11 @@ p {
   }
   .eight {
     padding-bottom: 40px;
+  }
+  div.home_icon{
+    position: absolute;
+    left: 94%;
+    top: 90%;
+    transform: rotate(-90deg);
   }
 }
