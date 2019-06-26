@@ -197,7 +197,7 @@ p {
   }
   /* animation sizing */
   .img-animation {
-    margin: 1%;
+    margin: auto;
   }
   .one,
   .two,
@@ -228,6 +228,7 @@ p {
   }
   .ten {
     height: 35%;
+    margin:1%;
   }
   div.home_icon {
     position: absolute;

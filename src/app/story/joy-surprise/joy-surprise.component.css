@@ -214,8 +214,9 @@ p {
   }
   /* animation sizing */
   .img-animation {
-    margin: 4%;
+    margin: auto;
   }
+  
   .one,
   .three,
   .five,
@@ -234,6 +235,9 @@ p {
   }
   .eight {
     padding-bottom: 40px;
+  }
+  .ten{
+    margin:4%;
   }
   div.home_icon {
     position: absolute;
