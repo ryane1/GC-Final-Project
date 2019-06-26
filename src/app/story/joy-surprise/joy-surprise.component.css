@@ -33,11 +33,6 @@
   animation-iteration-count: 10;
 }
 @keyframes yoga {
-  /* 0%   {top:0px;}
-  25%  {top:100px;}
-  50%  {top:200px;}
-  75%  {top:100px;}
-  100% { top:0px;} */
   0%   {top:0px;}
   25%  {top:15px;}
   50%  {top:40px;}
