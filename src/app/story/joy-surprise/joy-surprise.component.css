@@ -159,11 +159,8 @@ p {
 }
 
 /* styling for arrow buttons */
-.fa-angle-right {
+.arrow {
   padding-right: 10px;
-}
-.fa-angle-left {
-  padding-left: 10px;
 }
 
 /* Tablet Version */
@@ -186,8 +183,6 @@ p {
   }
   .arrow {
     transform: rotate(90deg);
-  }
-  .arrow {
     padding: 20px;
   }
   .content {
