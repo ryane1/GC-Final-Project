@@ -18,17 +18,13 @@ div.home_icon{
 .five,
 .six,
 .seven,
-.nine {
+.eight,
+.nine,
+.ten {
   height: 30%;
 }
 .six {
   padding-right: 50px;
-}
-.eight {
-  height: 40%;
-}
-.ten {
-  height: 26%;
 }
 .content {
   height: 50vh;
@@ -184,20 +180,18 @@ p {
   .img-animation {
     margin: auto;
   }
-  .one,
   .two,
   .three,
   .four,
   .five,
   .six,
   .seven,
-  .nine {
+  .eight,
+  .nine,
+  .ten {
     height: 40%;
   }
-  .eight {
-    height: 50%;
-  }
-  .ten {
-    height: 48%;
+  .one {
+    height: 38%;
   }
 }
