@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./anger-disgust.component.css']
 })
 export class AngerDisgustComponent implements OnInit {
-
+  //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
@@ -14,9 +14,11 @@ export class AngerDisgustComponent implements OnInit {
 
   ngOnInit() {
   }
+  //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
+  //methods for playing sound on click, and to pause sound
   audioPart1() {
     if (this.playing) {
       this.playing = !this.playing;
