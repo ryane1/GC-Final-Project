@@ -33,7 +33,7 @@
   </section>
 
   <section class="anger3" #anger_3>
-      <img src="../../../assets/animations/anger/banana.gif" alt="banana peeling" class="img-animation three">
+    <img src="../../../assets/animations/anger/banana.gif" alt="banana peeling" class="img-animation three">
     <section class="content">
       <i (click)="scroll(anger_2)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -52,8 +52,8 @@
   </section>
 
   <section class="anger4" #anger_4>
-      <img src="../../../assets/animations/anger/parrot.gif" alt="parrot squawking" class="img-animation four">
-      <i class="material-icons" (click)="audioPart4()">volume_up</i>
+    <img src="../../../assets/animations/anger/parrot.gif" alt="parrot squawking" class="img-animation four">
+    <i class="material-icons" (click)="audioPart4()">volume_up</i>
     <section class="content">
       <i (click)="scroll(anger_3)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -70,7 +70,7 @@
   </section>
 
   <section class="anger5" #anger_5>
-      <img src="../../../assets/animations/anger/trafficjam.gif" alt="traffic jam" class="img-animation five">
+    <img src="../../../assets/animations/anger/trafficjam.gif" alt="traffic jam" class="img-animation five">
     <section class="content">
       <i (click)="scroll(anger_4)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -87,7 +87,7 @@
   </section>
 
   <section class="anger6" #anger_6>
-      <img src="../../../assets/animations/anger/bubble.gif" alt="thought bubble" class="img-animation six">
+    <img src="../../../assets/animations/anger/thoughtbubble.gif" alt="thought bubble" class="img-animation six">
     <section class="content">
       <i (click)="scroll(anger_5)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -103,7 +103,7 @@
   </section>
 
   <section class="anger7" #anger_7>
-      <img src="../../../assets/animations/anger/lungs.gif" alt="lungs breathing quickly" class="img-animation seven">
+    <img src="../../../assets/animations/anger/lungs.gif" alt="lungs breathing quickly" class="img-animation seven">
     <section class="content">
       <i (click)="scroll(anger_6)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -117,8 +117,8 @@
   </section>
 
   <section class="anger8" #anger_8>
-      <img src="../../../assets/animations/anger/cellphone.gif" alt="cell phone dropping" class="img-animation eight">
-      <i class="material-icons" (click)="audioPart8()">volume_up</i>
+    <img src="../../../assets/animations/anger/cellphone.gif" alt="cell phone dropping" class="img-animation eight">
+    <i class="material-icons" (click)="audioPart8()">volume_up</i>
     <section class="content">
       <i (click)="scroll(anger_7)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -132,9 +132,9 @@
   </section>
 
   <section class="anger9" #anger_9>
-      <img src="../../../assets/animations/anger/watch.gif" alt="watch ticking" class="img-animation nine">
-      <i class="material-icons" (click)="audioPart9()">volume_up</i>
-      <section class="content">
+    <img src="../../../assets/animations/anger/watch.gif" alt="watch ticking" class="img-animation nine">
+    <i class="material-icons" (click)="audioPart9()">volume_up</i>
+    <section class="content">
       <i (click)="scroll(anger_8)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
         As I examined my phone, the shattered screen
@@ -147,7 +147,7 @@
   </section>
 
   <section class="anger10" #anger_10>
-      <img src="../../../assets/animations/anger/calendar.gif" alt="calendar page turning" class="img-animation ten">
+    <img src="../../../assets/animations/anger/calendar.gif" alt="calendar page turning" class="img-animation ten">
     <section class="content">
       <i (click)="scroll(anger_9)" class="fas fa-angle-left fa-2x"></i>
       <p data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
@@ -160,8 +160,10 @@
         events.
       </p>
     </section>
+    <share-buttons [theme]="'circles-dark'" [include]="['facebook','twitter','linkedin','email']" [show]="4" [size]="1"
+      [title]="'Social Share Buttons'" [autoSetMeta]="false"></share-buttons>
     <div class="home_icon" (click)="backToMain()">
       <i class="fas fa-home"></i>
-      </div>
+    </div>
   </section>
 </div>

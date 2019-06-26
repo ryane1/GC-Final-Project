@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import '~@ngx-share/button/themes/default/default-theme';
 body{
     font-family: 'Open Sans', sans-serif;
     margin:0; 

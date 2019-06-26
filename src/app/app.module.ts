@@ -9,7 +9,7 @@ import { SadnessFearComponent } from "./story/sadness-fear/sadness-fear.componen
 import { AngerDisgustComponent } from "./story/anger-disgust/anger-disgust.component";
 import { JoySurpriseComponent } from "./story/joy-surprise/joy-surprise.component";
 import { RouterModule, Routes } from "@angular/router";
-
+import{ShareButtonsModule} from '@ngx-share/buttons';
 const storyRoutes: Routes = [
   { path: "", redirectTo: "/story", pathMatch: "full" },
   { path: "story", component: StoryComponent },
@@ -30,6 +30,7 @@ const storyRoutes: Routes = [
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    ShareButtonsModule,
     RouterModule.forRoot(storyRoutes)
   ],
   providers: [ApiService],

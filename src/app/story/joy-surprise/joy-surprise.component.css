@@ -203,7 +203,7 @@ p {
   }
   /* animation sizing */
   .img-animation {
-    margin: auto;
+    margin: 4%;
   }
   .one,
   .three,
@@ -229,5 +229,6 @@ p {
     left: 94%;
     top: 90%;
     transform: rotate(-90deg);
+    color:black;
   }
 }
