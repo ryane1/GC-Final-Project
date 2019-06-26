@@ -148,13 +148,11 @@ p {
     flex-direction: column;
     overflow-x: hidden;
   }
-  .fas {
+  .arrow {
     transform: rotate(90deg);
-  }
-  .fa-angle-right,
-  .fa-angle-left {
     padding: 20px;
   }
+ 
   .content {
     width: 60vw;
   }
@@ -171,7 +169,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
   }
-  .material-icons {
+  .speaker {
     position: absolute;
     top: 75%;
     right: 80%;
@@ -204,7 +202,6 @@ p {
     position: absolute;
     left: 94%;
     top: 90%;
-    transform: rotate(-90deg);
   }
   share-buttons{
     position: absolute;
