@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-anger-disgust',
@@ -6,17 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./anger-disgust.component.css']
 })
 export class AngerDisgustComponent implements OnInit {
-
+  //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
+  //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
+  //methods for playing sound on click, and to pause sound
   audioPart1() {
     if (this.playing) {
       this.playing = !this.playing;
@@ -54,5 +57,8 @@ export class AngerDisgustComponent implements OnInit {
       this.audio.pause();
       this.playing = !this.playing;
     }
+  }
+  backToMain(){
+    this.router.navigate(["/story"]);
   }
 }

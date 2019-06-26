@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-joy-surprise",
@@ -6,16 +7,18 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./joy-surprise.component.css"]
 })
 export class JoySurpriseComponent implements OnInit {
-  
+  //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() {}
+  constructor(private router:Router) {}
 
-  ngOnInit() {}
+  ngOnInit() { }
+  //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
+  //methods for playing sound on click, and to pause sound
   audioPart2() {
     if (this.playing) {
       this.playing = !this.playing;
@@ -64,5 +67,8 @@ export class JoySurpriseComponent implements OnInit {
       this.audio.pause();
       this.playing = !this.playing;
     }
+  }
+  backToMain(){
+    this.router.navigate(["/story"]);
   }
 }

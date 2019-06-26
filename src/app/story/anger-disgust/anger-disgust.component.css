@@ -1,4 +1,15 @@
 /* Mobile Version */
+
+/* curson change hover */
+.material-icons{
+  cursor: pointer;
+}
+div.home_icon{
+  position: relative;
+  left: 35%;
+  font-size:2em;
+  cursor:pointer;
+}
 /* animation sizing */
 .one,
 .two,
@@ -17,10 +28,8 @@
   height: 40%;
 }
 .ten {
-  height: 38%;
-  padding-right: 30px;
+  height: 26%;
 }
-
 .content {
   height: 50vh;
 }
@@ -125,27 +134,19 @@ p {
 .fa-angle-left {
   padding-left: 10px;
 }
+/* Tablet Version */
+@media only screen and (min-width:768px){
+  p{
+    font-size:20px;
+  }
+}
+
 /* Desktop Version */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   p {
     font-size: 26px;
   }
-  /* adding gradient effect to background */
-  div {
-    height: 1000vh;
-    /* background-image: linear-gradient(
-      #fe1100,
-      #b31509,
-      #44385c,
-      #5c595a,
-      #7e84ad,
-      #fe1100,
-      #b31509,
-      #44385c,
-      #5c595a,
-      #7e84ad
-    ); */
-  }
+  
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;

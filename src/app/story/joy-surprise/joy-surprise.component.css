@@ -1,11 +1,19 @@
 /* Mobile Version */
-/* animation sizing */
+div.home_icon{
+  position: relative;
+  left: 35%;
+  font-size:2em;
+  cursor:pointer;
+}
+.material-icons{
+  cursor: pointer;
+}
 
+/* animation sizing */
 .one,
 .three,
 .six,
-.nine,
-.ten {
+.nine{
   height: 30%;
 }
 .two, .four {
@@ -22,25 +30,23 @@
   height: 40%;
 }
 .ten {
-  padding-right: 70px;
+  height:25%;
 }
-
 .five{
-  height:33%;
+  height:30%;
   animation-name:yoga;
   animation-duration: 10s;
   position: relative;
   animation-iteration-count: 10;
 }
+/* animating yogo */
 @keyframes yoga {
   0%   {top:0px;}
   25%  {top:15px;}
   50%  {top:40px;}
   75%  { top:15px;}
   100% { top:0px;}
-
 }
-
 .content {
   height: 50vh;
 }
@@ -58,6 +64,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 /* Horizontal scroll */
 .horizontal_scroll {
   display: flex;
@@ -73,6 +80,7 @@ section {
   width: 100vw;
   flex: 0 0 auto;
 }
+
 /* styling for joy-surprise sections */
 .joyspan1,
 .joyspan6 {
@@ -113,6 +121,7 @@ p {
   margin: 0;
   padding: 13%;
 }
+
 /* styling highlighted text */
 .part1,
 .part6 {
@@ -137,6 +146,7 @@ p {
   background-color: #f28080;
   color: white;
 }
+
 /* styling for arrow buttons */
 .fa-angle-right {
   padding-right: 10px;
@@ -145,27 +155,19 @@ p {
   padding-left: 10px;
 }
 
+/* Tablet Version */
+@media only screen and (min-width:768px){
+  p{
+    font-size:20px;
+  }
+}
+
 /* Desktop Version */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   p {
     font-size: 26px;
   }
-  /* gradient background */
-  /* div {
-    height: 1000vh;
-    background-image: linear-gradient(
-      #8d53a6,
-      #020540 18%,
-      #f2e269,
-      #f2b705,
-      #f28080,
-      #8d53a6,
-      #020540,
-      #f2e269,
-      #f2b705,
-      #f28080
-    );
-  } */
+
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
