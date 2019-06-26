@@ -19,12 +19,12 @@ div.home_icon{
 .six,
 .seven,
 .eight,
-.nine,
-.ten {
+.nine
+{
   height: 30%;
 }
-.six {
-  padding-right: 50px;
+.ten{
+  height:26%;
 }
 .content {
   height: 50vh;
