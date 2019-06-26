@@ -197,7 +197,7 @@ p {
   }
   /* animation sizing */
   .img-animation {
-    margin: auto;
+    margin: 1%;
   }
   .one,
   .two,
@@ -235,4 +235,5 @@ p {
     top: 90%;
     transform: rotate(-90deg);
   }
+  
 }
