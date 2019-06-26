@@ -176,7 +176,7 @@ p {
 /* Desktop Version */
 @media only screen and (min-width: 992px) {
   p {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   /* changing scroll to vertical */
@@ -216,19 +216,15 @@ p {
   .img-animation {
     margin: auto;
   }
-  
   .one,
   .three,
   .five,
   .six,
-  .eight,
-  .nine,
-  .ten {
+  .eight{
     height: 40%;
   }
-  .two,
-  .four {
-    height: 36%;
+  .two,.four, .nine, .ten{
+    height:32%;
   }
   .seven {
     height: 52%;
@@ -246,4 +242,35 @@ p {
     transform: rotate(-90deg);
     color:black;
   }
+  share-buttons{
+    position: absolute;
+    bottom: 11%;
+    right: 8%;
+  }
 }
+@media only screen and (min-width:1141px){
+  share-buttons{
+    bottom: 11%;
+    right: 16%;
+  }
+  .two{
+    height:40%
+  }
+  .ten{
+    margin:auto;
+  }
+}
+@media only screen and (min-width:1504px){
+  share-buttons{
+    bottom: 11%;
+    right: 21%;
+  }
+}
+/* @media only screen and (min-width:1050px){
+  .ten{
+    height:32%;
+  }
+  p{
+    font-size: 22px;
+  }
+} */

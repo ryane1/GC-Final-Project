@@ -140,7 +140,7 @@ p {
 /* Desktop Version */
 @media only screen and (min-width: 992px) {
   p {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   /* changing scroll to vertical */
@@ -189,10 +189,16 @@ p {
   .eight,
   .nine,
   .ten {
-    height: 40%;
+    height: 33%;
   }
   .one {
-    height: 36%;
+    height: 26%;
+  }
+  .four {
+    height: 41%;
+  }
+  .five {
+    height: 46%;
   }
   div.home_icon {
     position: absolute;
@@ -200,4 +206,29 @@ p {
     top: 90%;
     transform: rotate(-90deg);
   }
+  share-buttons{
+    position: absolute;
+    bottom: 11%;
+    right: 8%;
+  }
 }
+@media only screen and (min-width:1141px){
+  share-buttons{
+    bottom: 11%;
+    right: 16%;
+  }
+  .one {
+    height: 31%;
+  }
+}
+@media only screen and (min-width:1504px){
+  share-buttons{
+    bottom: 11%;
+    right: 21%;
+  }
+  .one {
+    height: 41%;
+  }
+}
+
+

@@ -206,7 +206,7 @@ p {
   .five,
   .seven,
   .nine {
-    height: 40%;
+    height: 23%;
   }
   .one {
     height: 48%;
@@ -236,5 +236,34 @@ p {
     top: 90%;
     transform: rotate(-90deg);
   }
+  share-buttons{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+  }
+}
+@media only screen and (min-width:1141px){
+  share-buttons{
+    bottom: 11%;
+    right: 16%;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .seven,
+  .nine {
+    height: 40%;
+  }
   
+}
+@media only screen and (min-width:1504px){
+  share-buttons{
+    bottom: 11%;
+    right: 21%;
+  }
+  .one,.two{
+    height: 50%;
+  }
 }
