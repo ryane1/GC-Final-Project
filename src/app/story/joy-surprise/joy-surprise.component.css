@@ -32,7 +32,7 @@ div.home_icon{
 .five{
   height:30%;
   animation-name:yoga;
-  animation-duration: 10s;
+  animation-duration: 3s;
   position: relative;
   animation-iteration-count: 10;
 }
