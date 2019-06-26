@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-sadness-fear",
@@ -10,7 +11,7 @@ export class SadnessFearComponent implements OnInit {
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() { }
+  constructor(private router:Router) {}
 
   ngOnInit() { }
   //click event for arrow scroll
@@ -57,5 +58,8 @@ export class SadnessFearComponent implements OnInit {
     audio.src = "../../../assets/sounds/Door Close.mp3";
     audio.load();
     audio.play();
+  }
+  backToMain(){
+    this.router.navigate(["/story"]);
   }
 }

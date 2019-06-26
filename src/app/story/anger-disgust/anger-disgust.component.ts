@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-anger-disgust',
@@ -10,7 +11,7 @@ export class AngerDisgustComponent implements OnInit {
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
@@ -56,5 +57,8 @@ export class AngerDisgustComponent implements OnInit {
       this.audio.pause();
       this.playing = !this.playing;
     }
+  }
+  backToMain(){
+    this.router.navigate(["/story"]);
   }
 }

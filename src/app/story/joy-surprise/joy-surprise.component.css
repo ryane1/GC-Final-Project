@@ -1,15 +1,16 @@
 /* Mobile Version */
-.material-icons{
-  cursor: pointer;
+div.home_icon{
+  position: relative;
+  left: 35%;
+  font-size:2em;
+  cursor:pointer;
 }
 
 /* animation sizing */
-
 .one,
 .three,
 .six,
-.nine,
-.ten {
+.nine{
   height: 30%;
 }
 .two, .four {
@@ -26,11 +27,10 @@
   height: 40%;
 }
 .ten {
-  padding-right: 70px;
+  height:25%;
 }
-
 .five{
-  height:33%;
+  height:30%;
   animation-name:yoga;
   animation-duration: 10s;
   position: relative;

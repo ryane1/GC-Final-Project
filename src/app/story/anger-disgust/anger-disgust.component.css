@@ -4,6 +4,12 @@
 .material-icons{
   cursor: pointer;
 }
+div.home_icon{
+  position: relative;
+  left: 35%;
+  font-size:2em;
+  cursor:pointer;
+}
 /* animation sizing */
 .one,
 .two,
@@ -22,8 +28,7 @@
   height: 40%;
 }
 .ten {
-  height: 38%;
-  padding-right: 30px;
+  height: 26%;
 }
 .content {
   height: 50vh;
