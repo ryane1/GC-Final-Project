@@ -36,7 +36,7 @@
         instantly <span class="angerspan2">turned red from anger</span> as I
         threw my bag on the floor. I searched high and low but no luck.
       </p>
-      <i (click)="scroll(anger_3)" class="material-icons">keyboard_arrow_right</i>
+      <i (click)="scroll(anger_3)" class="material-icons arrow">keyboard_arrow_right</i>
     </section>
   </section>
 
@@ -140,7 +140,7 @@
         <span class="angerspan7">I yelled at the top of my lungs in rage</span>
         as I tried to save myself and the phone from immense agony.
       </p>
-      <i (click)="scroll(anger_8)" class="material-icons">keyboard_arrow_right</i>
+      <i (click)="scroll(anger_8)" class="material-icons arrow">keyboard_arrow_right</i>
     </section>
   </section>
 
@@ -202,8 +202,8 @@
     </section>
     <share-buttons [theme]="'circles-dark'" [include]="['facebook','twitter','linkedin','email']" [show]="4" [size]="1"
       [title]="'Social Share Buttons'" [autoSetMeta]="false"></share-buttons>
-    <div class="home_icon" (click)="backToMain()">
-      <i class="material-icons">home</i>
+    <div (click)="backToMain()">
+      <i class="material-icons home_icon">home</i>
     </div>
   </section>
 </div>

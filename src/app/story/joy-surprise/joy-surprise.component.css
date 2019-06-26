@@ -1,5 +1,5 @@
 /* Mobile Version */
-div.home_icon {
+.home_icon {
   position: relative;
   left: 35%;
   font-size: 2em;
@@ -160,13 +160,20 @@ p {
 
 /* styling for arrow buttons */
 .arrow {
-  padding-right: 10px;
+  padding: 10px;
+  font-size: 32px;
 }
 
 /* Tablet Version */
 @media only screen and (min-width: 768px) {
   p {
     font-size: 20px;
+  }
+  .home_icon {
+    position: absolute;
+    left: 94%;
+    top: 90%;
+    color:black;
   }
 }
 
@@ -229,12 +236,7 @@ p {
   .ten{
     margin:4%;
   }
-  div.home_icon {
-    position: absolute;
-    left: 94%;
-    top: 90%;
-    color:black;
-  }
+
   share-buttons{
     position: absolute;
     bottom: 11%;

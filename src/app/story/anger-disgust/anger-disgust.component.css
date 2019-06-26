@@ -4,7 +4,7 @@
 .material-icons {
   cursor: pointer;
 }
-div.home_icon {
+.home_icon {
   position: relative;
   left: 35%;
   font-size: 2em;
@@ -124,11 +124,9 @@ p {
   background-color: #7e84ad;
 }
 /* styling for arrow buttons */
-.fa-angle-right {
-  padding-right: 10px;
-}
-.fa-angle-left {
-  padding-left: 10px;
+.arrow {
+  padding: 10px;
+  font-size: 32px;
 }
 /* Tablet Version */
 @media only screen and (min-width: 768px) {
@@ -198,7 +196,7 @@ p {
   .five {
     height: 46%;
   }
-  div.home_icon {
+  .home_icon {
     position: absolute;
     left: 94%;
     top: 90%;

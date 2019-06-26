@@ -3,7 +3,7 @@
   cursor: pointer;
 }
 
-div.home_icon {
+.home_icon {
   position: relative;
   left: 35%;
   font-size: 2em;
@@ -142,11 +142,9 @@ p {
 }
 
 /* styling for arrow buttons */
-.fa-angle-right {
-  padding-right: 10px;
-}
-.fa-angle-left {
-  padding-left: 10px;
+.arrow {
+  padding: 10px;
+  font-size: 32px;
 }
 
 /* Tablet Version */
@@ -227,7 +225,7 @@ p {
     height: 35%;
     margin:1%;
   }
-  div.home_icon {
+  .home_icon {
     position: absolute;
     left: 94%;
     top: 90%;
