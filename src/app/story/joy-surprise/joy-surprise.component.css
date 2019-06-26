@@ -5,6 +5,9 @@ div.home_icon{
   font-size:2em;
   cursor:pointer;
 }
+.material-icons{
+  cursor: pointer;
+}
 
 /* animation sizing */
 .one,

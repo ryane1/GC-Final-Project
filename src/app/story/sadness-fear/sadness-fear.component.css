@@ -1,4 +1,7 @@
 /* Mobile Version */
+.material-icons{
+  cursor: pointer;
+}
 
 div.home_icon{
   position: relative;
