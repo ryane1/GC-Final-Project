@@ -31,6 +31,7 @@ export class StoryComponent implements OnInit {
       .getEmotionAnalysis(form.value.textInput)
       .subscribe(response => {
         this.emotions = response;
+        console.log(this.emotions);
         //emotions detected from the user input is checked for each emotion, it is than routed to proper route
         if (
           this.emotions.emotions_detected[0] == "joy" ||

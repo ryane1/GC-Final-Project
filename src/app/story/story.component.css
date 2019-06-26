@@ -147,6 +147,14 @@ button:hover {
   }
 }
 
+/* Tablet Version */
+@media only screen and (min-width:600px){
+  img{
+    width:77%;
+  }
+}
+
+/* Desktop Version */
 @media only screen and (min-width: 768px) {
   textarea {
     margin-top: 3%;
