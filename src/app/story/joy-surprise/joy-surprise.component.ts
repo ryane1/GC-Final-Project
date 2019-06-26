@@ -6,16 +6,18 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./joy-surprise.component.css"]
 })
 export class JoySurpriseComponent implements OnInit {
-  
+  //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
+  //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
+  //methods for playing sound on click, and to pause sound
   audioPart2() {
     if (this.playing) {
       this.playing = !this.playing;

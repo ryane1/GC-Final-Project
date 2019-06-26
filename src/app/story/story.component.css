@@ -147,15 +147,21 @@ button:hover {
   }
 }
 
-/* Tablet Version */
-@media only screen and (min-width:600px){
+@media only screen and (min-width:481px){
   img{
-    width:77%;
+    width: 55%;
+  }
+}
+
+/* Tablet Version */
+@media only screen and (min-width:768px){
+  img{
+    width:56%;
   }
 }
 
 /* Desktop Version */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   textarea {
     margin-top: 3%;
     width: 147%;
@@ -172,6 +178,6 @@ button:hover {
     font-size: 1.2em;
   }
  img{
-   width:50%;
+   width:47%;
  }
 }

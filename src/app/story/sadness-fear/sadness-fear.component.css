@@ -1,4 +1,9 @@
 /* Mobile Version */
+
+/* cursor changer over icon */
+.material-icons{
+  cursor: pointer;
+}
 /* animation sizing */
 .one {
   height: 350px;
@@ -27,7 +32,6 @@
 .ten {
   height: 240px;
 }
-
 .content {
   height: 50vh;
 }
@@ -51,6 +55,7 @@ section {
   width: 100vw;
   flex: 0 0 auto;
 }
+
 /* styling for each section */
 .fearspan1,
 .fearspan6 {
@@ -91,6 +96,7 @@ p {
   margin: 0;
   padding: 13%;
 }
+
 /* styling highlighted text */
 .fear1,
 .fear6 {
@@ -115,6 +121,7 @@ p {
 .fear10 {
   background-color: #b8e63d;
 }
+
 /* styling for arrow buttons */
 .fa-angle-right {
   padding-right: 10px;
@@ -122,27 +129,20 @@ p {
 .fa-angle-left {
   padding-left: 10px;
 }
+
+/* Tablet Version */
+@media only screen and (min-width:768px){
+  p{
+    font-size:20px;
+  }
+}
+
 /* Desktop Version */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   p {
     font-size: 26px;
   }
-  /* gradient background */
-  div {
-    height: 1000vh;
-    /* background-image: linear-gradient(
-      #4f8069,
-      #e3d597,
-      #293b75,
-      #334011,
-      #b8e63d,
-      #4f8069,
-      #e3d597,
-      #293b75,
-      #334011,
-      #b8e63d
-    ); */
-  }
+  
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;

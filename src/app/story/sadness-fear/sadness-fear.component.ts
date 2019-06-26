@@ -6,17 +6,18 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./sadness-fear.component.css"]
 })
 export class SadnessFearComponent implements OnInit {
-  
+  //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
-  constructor() {}
+  constructor() { }
 
+  ngOnInit() { }
+  //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
-  ngOnInit() {}
-
+  //methods for playing sound on click, and to pause sound
   audioPart2() {
     if (this.playing) {
       this.playing = !this.playing;
@@ -26,7 +27,7 @@ export class SadnessFearComponent implements OnInit {
     } else {
       this.audio.pause();
       this.playing = !this.playing;
-    }    
+    }
   }
   audioPart5() {
     if (this.playing) {
@@ -37,9 +38,8 @@ export class SadnessFearComponent implements OnInit {
     } else {
       this.audio.pause();
       this.playing = !this.playing;
-    } 
+    }
   }
-  
   audioPart7() {
     let audio = new Audio();
     audio.src = "../../../assets/sounds/Bicycle Bell Ringing.mp3";
@@ -58,5 +58,4 @@ export class SadnessFearComponent implements OnInit {
     audio.load();
     audio.play();
   }
-  
 }
