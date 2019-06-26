@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 const httpOptions = {
   headers: new HttpHeaders({
     "X-RapidAPI-Host": "twinword-emotion-analysis-v1.p.rapidapi.com",
-    "X-RapidAPI-Key": "7a3e2df803mshaa1630ee6c6c239p1c9c0bjsned1be9eb7b9d",
+    "X-RapidAPI-Key": "3a97eed575mshac6ad2315388727p1b7087jsna8d923d3487d",
     "Content-Type": "application/x-www-form-urlencoded"
   })
 };

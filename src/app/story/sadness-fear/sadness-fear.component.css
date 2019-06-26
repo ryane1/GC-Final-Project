@@ -1,13 +1,13 @@
 /* Mobile Version */
-.material-icons{
+.material-icons {
   cursor: pointer;
 }
 
-div.home_icon{
+div.home_icon {
   position: relative;
   left: 35%;
-  font-size:2em;
-  cursor:pointer;
+  font-size: 2em;
+  cursor: pointer;
 }
 /* animation sizing */
 .one,
@@ -150,9 +150,9 @@ p {
 }
 
 /* Tablet Version */
-@media only screen and (min-width:768px){
-  p{
-    font-size:20px;
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
   }
 }
 
@@ -161,7 +161,7 @@ p {
   p {
     font-size: 26px;
   }
-  
+
   /* changing scroll to vertical */
   .horizontal_scroll {
     flex-direction: column;
@@ -229,7 +229,7 @@ p {
   .ten {
     height: 35%;
   }
-  div.home_icon{
+  div.home_icon {
     position: absolute;
     left: 94%;
     top: 90%;

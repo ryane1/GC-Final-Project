@@ -1,20 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-anger-disgust',
-  templateUrl: './anger-disgust.component.html',
-  styleUrls: ['./anger-disgust.component.css']
+  selector: "app-anger-disgust",
+  templateUrl: "./anger-disgust.component.html",
+  styleUrls: ["./anger-disgust.component.css"]
 })
 export class AngerDisgustComponent implements OnInit {
   //initializing this.playing as true
   playing: boolean = true;
   audio = new Audio();
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
   //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
@@ -58,7 +57,7 @@ export class AngerDisgustComponent implements OnInit {
       this.playing = !this.playing;
     }
   }
-  backToMain(){
+  backToMain() {
     this.router.navigate(["/story"]);
   }
 }

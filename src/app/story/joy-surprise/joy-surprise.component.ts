@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Router } from '@angular/router';
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-joy-surprise",
@@ -11,9 +11,9 @@ export class JoySurpriseComponent implements OnInit {
   playing: boolean = true;
   audio = new Audio();
 
-  constructor(private router:Router) {}
+  constructor(private router: Router) {}
 
-  ngOnInit() { }
+  ngOnInit() {}
   //click event for arrow scroll
   scroll(el: HTMLElement) {
     el.scrollIntoView();
@@ -68,7 +68,7 @@ export class JoySurpriseComponent implements OnInit {
       this.playing = !this.playing;
     }
   }
-  backToMain(){
+  backToMain() {
     this.router.navigate(["/story"]);
   }
 }

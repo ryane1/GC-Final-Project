@@ -1,11 +1,11 @@
 /* Mobile Version */
-div.home_icon{
+div.home_icon {
   position: relative;
   left: 35%;
-  font-size:2em;
-  cursor:pointer;
+  font-size: 2em;
+  cursor: pointer;
 }
-.material-icons{
+.material-icons {
   cursor: pointer;
 }
 
@@ -13,10 +13,11 @@ div.home_icon{
 .one,
 .three,
 .six,
-.nine{
+.nine {
   height: 30%;
 }
-.two, .four {
+.two,
+.four {
   height: 26%;
 }
 .six {
@@ -30,22 +31,32 @@ div.home_icon{
   height: 40%;
 }
 .ten {
-  height:25%;
+  height: 25%;
 }
-.five{
-  height:30%;
-  animation-name:yoga;
+.five {
+  height: 30%;
+  animation-name: yoga;
   animation-duration: 3s;
   position: relative;
   animation-iteration-count: 10;
 }
 /* animating yogo */
 @keyframes yoga {
-  0%   {top:0px;}
-  25%  {top:15px;}
-  50%  {top:40px;}
-  75%  { top:15px;}
-  100% { top:0px;}
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 15px;
+  }
+  50% {
+    top: 40px;
+  }
+  75% {
+    top: 15px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 .content {
   height: 50vh;
@@ -156,9 +167,9 @@ p {
 }
 
 /* Tablet Version */
-@media only screen and (min-width:768px){
-  p{
-    font-size:20px;
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
   }
 }
 
@@ -224,7 +235,7 @@ p {
   .eight {
     padding-bottom: 40px;
   }
-  div.home_icon{
+  div.home_icon {
     position: absolute;
     left: 94%;
     top: 90%;
