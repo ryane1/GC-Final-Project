@@ -224,4 +224,10 @@ p {
   .eight {
     padding-bottom: 40px;
   }
+  div.home_icon{
+    position: absolute;
+    left: 94%;
+    top: 90%;
+    transform: rotate(-90deg);
+  }
 }

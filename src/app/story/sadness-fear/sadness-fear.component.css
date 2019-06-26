@@ -150,7 +150,7 @@ p {
   }
   /* gradient background */
   div {
-    height: 1000vh;
+    /* height: 1000vh; */
     /* background-image: linear-gradient(
       #4f8069,
       #e3d597,
@@ -230,5 +230,11 @@ p {
   }
   .ten {
     height: 35%;
+  }
+  div.home_icon{
+    position: absolute;
+    left: 94%;
+    top: 90%;
+    transform: rotate(-90deg);
   }
 }
